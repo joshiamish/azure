@@ -43,3 +43,8 @@ Resource
 Everty service in azure is a resource whethe it is virtual newwork, VM , App Engine, Storage, Database.  
 When you create a resouce it needs to be a part of resource group , so that it can be billed properly. A resource belong to single resource group.
 
+
+
+=============================================================================================================================
+Nice explanation on below link
+https://azure.microsoft.com/en-us/blog/organizing-subscriptions-and-resource-groups-within-the-enterprise/?cdn=disable
