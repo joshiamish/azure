@@ -1,0 +1,45 @@
+Azure Active Director is the main tool to manage users in Azure. Active directory is not Azure Active directory. They are different product.
+
+
+Azure Active Directory (AAD) is a service. You can't have an Azure account without an AAD service
+Every Azure account needs a first user and this user is in the initial AAD instance.
+===================================================================================================================
+Tenant
+A tenant represents the oraganization
+A tenant is a dedicated instance of AAD that an oraganization receive when signing up for Azure
+Each tenant is distinct and compeltely seprate from other AAD tenants
+Each user in Azure can only belong to a singel tenant. Users can be guest of other tenant thoughs.
+========================================================================================================================
+Subscription
+Subscription are billing entity. All the resxources withn in a subscription are billed together
+You can have multiple subscription within a tenant to seprate costs.
+If Subscription is not paid, all the resources and services associated witht he subscription stop.
+Each subscription contains multiple applications that are related to delivering the set of functionalities that make up the service. 
+Each application is typically contained in an explicit resource group. 
+===========================================================================================================================
+Resource Group
+The resource group becomes the container for that application, which is part of the service (the subscription).
+At the application/resource group level is where the team of application developers live and they’re accountable for their footprint in Azure from security to optimal Azure spend in everything they do.
+Within the resource groups above, the typical components you would see in each of the production resource groups (applications) would be the Azure components used to build that specific service such as:
+
+ Azure HDInsight cluster
+ Storage Accounts
+ SQL Database
+ Log Analytics
+ Application Insights
+ Etc., etc.
+ 
+ Each resource group has the components specific to that application.
+ On occasion, the subscription might have a Common or Shared Services resource group. 
+ These are items that are used across the applications in the service, for example:
+
+    Common Log Analytics workspace
+    Common Blob Storage accounts where files are dumped for processing by the other services
+    An ExpressRoute VNet
+
+
+==========================================================================================================================
+Resource
+Everty service in azure is a resource whethe it is virtual newwork, VM , App Engine, Storage, Database.  
+When you create a resouce it needs to be a part of resource group , so that it can be billed properly. A resource belong to single resource group.
+
