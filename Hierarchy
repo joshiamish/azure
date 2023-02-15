@@ -1,0 +1,65 @@
+Microsoft provides a hierarchy of organizations, subscriptions, licenses, and user accounts for consistent use of identities and billing across its cloud offerings:
+
+======================================================================================================================================================
+Organization
+An organization represents a business entity that is using Microsoft cloud offerings, typically identified by one or more public Domain Name System (DNS) domain names, such as contoso.com. 
+The organization is a container for subscriptions.
+
+====================================================================================================================================================
+Subscriptions
+
+A subscription is an agreement with Microsoft to use one or more Microsoft cloud platforms or services, for which charges accrue based on either a per-user license fee or on cloud-based resource consumption.
+
+ Microsoft's Software as a Service (SaaS)-based cloud offerings (Microsoft 365 and Dynamics 365) charge per-user license fees.
+ Microsoft's Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) cloud offerings (Azure) charge based on cloud resource consumption.
+ 
+ Organizations can have multiple subscriptions for Microsoft's cloud offerings
+ 
+========================================================================================================================================================= 
+Licenses
+For Microsoft's SaaS cloud offerings, a license allows a specific user account to use the services of the cloud offering. You are charged a fixed monthly fee as part of your subscription.
+Administrators assign licenses to individual user accounts in the subscription.For Azure PaaS-based cloud services, software licenses are built into the service pricing.
+
+For Azure IaaS-based virtual machines, additional licenses to use the software or application installed on a virtual machine image might be required. 
+Some virtual machine images have licensed versions of software installed and the cost is included in the per-minute rate for the server.
+Examples are the virtual machine images for SQL Server 2014 and SQL Server 2016.
+
+========================================================================================================================================================
+User accounts
+
+User accounts for all of Microsoft's cloud offerings are stored in an Azure Active Directory (Azure AD) tenant, which contains user accounts and groups. 
+An Azure AD tenant can be synchronized with your existing Active Directory Domain Services (AD DS) accounts using Azure AD Connect, a Windows server-based service. 
+This is known as directory synchronization.
+=========================================================================================================================================
+
+Tenants
+An Azure AD tenant is a specific instance of Azure AD containing accounts and groups.
+Paid or trial subscriptions of Microsoft 365 or Dynamics 365 include a free Azure AD tenant. 
+This Azure AD tenant does not include other Azure services and is not the same as an Azure trial or paid subscription.
+
+For SaaS cloud offerings, the tenant is the regional location that houses the servers providing cloud services. 
+For example, the Contoso Corporation chose the European region to host its Microsoft 365, EMS, and Dynamics 365 subscriptions for the 15,000 workers in their Paris headquarters.
+
+Azure PaaS services and virtual machine-based workloads hosted in Azure IaaS can have tenancy in any Azure datacenter across the world.
+You specify the Azure datacenter, known as the location, when you create the Azure PaaS app or service or element of an IaaS workload.
+=====================================================================================================================================================
+Summary of the hierarchy
+
+Here is a quick recap:
+
+    An organization can have multiple subscriptions
+
+        A subscription can have multiple licenses
+        Licenses can be assigned to individual user accounts
+        User accounts are stored in an Azure AD tenant
+
+Here is an example of the relationship of organizations, subscriptions, licenses, and user accounts:
+
+    An organization identified by its public domain name.
+        A Microsoft 365 E3 subscription with user licenses.
+        A Microsoft 365 E5 subscription with user licenses.
+        A Dynamics 365 subscription with user licenses.
+        Multiple Azure subscriptions.
+        The organization's user accounts in a common Azure AD tenant.
+
+
