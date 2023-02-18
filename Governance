@@ -1,10 +1,11 @@
 Governance: Governance validate that your organization can achieve its goals through efffective and efficient use of IT. 
-Policy: Policy is a set of rules . Rules to make sure standard and regulation are followed and resources to which policaies are applied are compliant to those polices.
-Role Base Access Control (RBAC): RBAC define which user has access to which resource and what they can do with those resource.
+Policy: Policy is a set of rules to ensure compliant resources. Rules to make sure standard and regulation are followed and resources to which policaies are applied are compliant to those polices.
+Role Base Access Control (RBAC): RBAC define which user has access to which resource and what they can do with those resource. R
+A role is a combination of security principal , role definition and scope.
 
 
 
-Lock: Tool to  control if resource can be removed or changed. It can be applied at resource/resource group and subscription. Two type of Lock delete and Read Only.
+Lock: Lock make sure the subscription, resource group and resources are either not modified or not deleted. Two type of Lock delete and Read Only.
 
 Blue Print: Blue prints are templates for creating Azure resources. 
 How to use Blue Print: For example if you had to create brand new environment for your products and you need to compliant with set of rules and regulation.
