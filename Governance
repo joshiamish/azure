@@ -22,3 +22,8 @@ Cloud Adotion Framework:
   Governance: Key to the cloud adoption process is governance of the process. The cloud adoption Framewoirk is a big step in that process.
   
   
+ Azure Trust Center: The Microsoft Trust Center is where you can find out what Microsoft does to keep your trust. 
+ The Service Trust Portal is where you can find audit reports and certificates awarded to Azure.
+ 
+ Azure Arc: Extend Azures's control plan to your non Azure resources. Apply Azure governance to Azure and non Azure resources. 
+  
