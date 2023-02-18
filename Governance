@@ -1,0 +1,22 @@
+Governance: Governance validate that your organization can achieve its goals through efffective and efficient use of IT. 
+Policy: Policy is a set of rules . Rules to make sure standard and regulation are followed and resources to which policaies are applied are compliant to those polices.
+Role Base Access Control (RBAC): RBAC define which user has access to which resource and what they can do with those resource.
+
+
+
+Lock: Tool to  control if resource can be removed or changed. It can be applied at resource/resource group and subscription. Two type of Lock delete and Read Only.
+
+Blue Print: Blue prints are templates for creating Azure resources. 
+How to use Blue Print: For example if you had to create brand new environment for your products and you need to compliant with set of rules and regulation.
+One way is to create resouce manually or through ARM template and manually make azure compliant or you do it through blue print.
+Azure Blue Print include:
+Resource Template to create resource
+Role based access control (RBAC)
+Policies
+
+Cloud Adotion Framework: 
+  Collection of document: Lot of cloud resources to guide you through the cloud adoption process
+  Guidance: Help you to define strategies for adoption, planning the move for cloud, adoption reson
+  , governance practices and managing a livign breath cloud architecture.
+  Governance: Key to the cloud adoption process is governance of the process. The cloud adoption Framewoirk is a big step in that process.
+
